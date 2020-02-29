@@ -3,29 +3,14 @@
  */
 package kotapp
 
-import io.ktor.application.*
-import io.ktor.features.CallLogging
-import io.ktor.features.DefaultHeaders
-import io.ktor.http.*
-import io.ktor.response.*
-import io.ktor.routing.*
-import io.ktor.server.engine.*
-import io.ktor.server.netty.*
-import kotapp.api.Health
+import com.google.inject.Guice
+import io.ktor.application.Application
+import kotapp.di.RoutesModule
 
 
 fun Application.main() {
-    install(Routing) {
-        get("/") {
-            call.respondText("My Example Blog2", ContentType.Text.Html)
-        }
-
-        Health()
-    }
+    Guice.createInjector(
+       RoutesModule(this)
+    )
 }
 
-/*
-fun main(args: Array<String>) {
-    embeddedServer(Netty, commandLineEnvironment(args)).start()
-}
-*/

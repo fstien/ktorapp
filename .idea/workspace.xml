@@ -64,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -87,13 +87,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.kotapp [run]">
-    <configuration name="AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BlodEndpointTests">
+    <configuration name="BlodEndpointTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kotapp.AppTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;kotapp.api.BlodEndpointTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -179,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.AppTest" />
       <item itemvalue="Gradle.kotapp [run]" />
       <item itemvalue="Gradle.kotapp [clean]" />
       <item itemvalue="Gradle.kotapp [installDist]" />
       <item itemvalue="Kotlin.io.ktor.server.netty.EngineMain" />
+      <item itemvalue="Gradle.BlodEndpointTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BlodEndpointTests" />
+        <item itemvalue="Gradle.kotapp [run]" />
         <item itemvalue="Gradle.kotapp [clean]" />
         <item itemvalue="Gradle.kotapp [installDist]" />
-        <item itemvalue="Gradle.kotapp [run]" />
         <item itemvalue="Kotlin.io.ktor.server.netty.EngineMain" />
-        <item itemvalue="Gradle.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,22 +237,42 @@
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
     <state x="1384" y="362" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1350@0.23.2560.1350" timestamp="1583002880857" />
-    <state width="1238" height="392" key="GridCell.Tab.0.bottom" timestamp="1583015535185">
+    <state x="1822" y="776" width="684" height="534" key="#xdebugger.evaluate" timestamp="1583017762071">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="1238" height="392" key="GridCell.Tab.0.bottom/0.23.2560.1350@0.23.2560.1350" timestamp="1583015535185" />
-    <state width="1238" height="392" key="GridCell.Tab.0.center" timestamp="1583015535184">
+    <state x="1822" y="776" width="684" height="534" key="#xdebugger.evaluate/0.23.2560.1350@0.23.2560.1350" timestamp="1583017762071" />
+    <state width="1238" height="272" key="GridCell.Tab.0.bottom" timestamp="1583017900767">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="1238" height="392" key="GridCell.Tab.0.center/0.23.2560.1350@0.23.2560.1350" timestamp="1583015535184" />
-    <state width="1238" height="392" key="GridCell.Tab.0.left" timestamp="1583015535184">
+    <state width="1238" height="272" key="GridCell.Tab.0.bottom/0.23.2560.1350@0.23.2560.1350" timestamp="1583017900767" />
+    <state width="1238" height="272" key="GridCell.Tab.0.center" timestamp="1583017900766">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="1238" height="392" key="GridCell.Tab.0.left/0.23.2560.1350@0.23.2560.1350" timestamp="1583015535184" />
-    <state width="1238" height="392" key="GridCell.Tab.0.right" timestamp="1583015535185">
+    <state width="1238" height="272" key="GridCell.Tab.0.center/0.23.2560.1350@0.23.2560.1350" timestamp="1583017900766" />
+    <state width="1238" height="272" key="GridCell.Tab.0.left" timestamp="1583017900765">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="1238" height="392" key="GridCell.Tab.0.right/0.23.2560.1350@0.23.2560.1350" timestamp="1583015535185" />
+    <state width="1238" height="272" key="GridCell.Tab.0.left/0.23.2560.1350@0.23.2560.1350" timestamp="1583017900765" />
+    <state width="1238" height="272" key="GridCell.Tab.0.right" timestamp="1583017900766">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state width="1238" height="272" key="GridCell.Tab.0.right/0.23.2560.1350@0.23.2560.1350" timestamp="1583017900766" />
+    <state width="1238" height="485" key="GridCell.Tab.1.bottom" timestamp="1583017775347">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state width="1238" height="485" key="GridCell.Tab.1.bottom/0.23.2560.1350@0.23.2560.1350" timestamp="1583017775347" />
+    <state width="1238" height="485" key="GridCell.Tab.1.center" timestamp="1583017775347">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state width="1238" height="485" key="GridCell.Tab.1.center/0.23.2560.1350@0.23.2560.1350" timestamp="1583017775347" />
+    <state width="1238" height="485" key="GridCell.Tab.1.left" timestamp="1583017775346">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state width="1238" height="485" key="GridCell.Tab.1.left/0.23.2560.1350@0.23.2560.1350" timestamp="1583017775346" />
+    <state width="1238" height="485" key="GridCell.Tab.1.right" timestamp="1583017775347">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state width="1238" height="485" key="GridCell.Tab.1.right/0.23.2560.1350@0.23.2560.1350" timestamp="1583017775347" />
     <state x="1421" y="336" key="SettingsEditor" timestamp="1583002874142">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
@@ -261,5 +281,16 @@
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
     <state x="1575" y="467" width="689" height="462" key="find.popup/0.23.2560.1350@0.23.2560.1350" timestamp="1583015209717" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/kotapp/api/BlodEndpointTests.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
