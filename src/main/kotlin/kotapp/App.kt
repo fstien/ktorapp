@@ -15,8 +15,6 @@ import kotapp.api.Health
 
 
 fun Application.main() {
-    install(DefaultHeaders)
-    install(CallLogging)
     install(Routing) {
         get("/") {
             call.respondText("My Example Blog2", ContentType.Text.Html)

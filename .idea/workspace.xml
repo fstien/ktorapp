@@ -65,6 +65,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -86,7 +87,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.kotapp [clean]">
+  <component name="RunManager" selected="Gradle.kotapp [run]">
     <configuration name="AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,8 +187,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.kotapp [installDist]" />
         <item itemvalue="Gradle.kotapp [clean]" />
+        <item itemvalue="Gradle.kotapp [installDist]" />
         <item itemvalue="Gradle.kotapp [run]" />
         <item itemvalue="Kotlin.io.ktor.server.netty.EngineMain" />
         <item itemvalue="Gradle.AppTest" />
@@ -236,25 +237,29 @@
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
     <state x="1384" y="362" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1350@0.23.2560.1350" timestamp="1583002880857" />
-    <state width="1238" height="392" key="GridCell.Tab.0.bottom" timestamp="1583013417918">
+    <state width="1238" height="392" key="GridCell.Tab.0.bottom" timestamp="1583015535185">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="1238" height="392" key="GridCell.Tab.0.bottom/0.23.2560.1350@0.23.2560.1350" timestamp="1583013417918" />
-    <state width="1238" height="392" key="GridCell.Tab.0.center" timestamp="1583013417917">
+    <state width="1238" height="392" key="GridCell.Tab.0.bottom/0.23.2560.1350@0.23.2560.1350" timestamp="1583015535185" />
+    <state width="1238" height="392" key="GridCell.Tab.0.center" timestamp="1583015535184">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="1238" height="392" key="GridCell.Tab.0.center/0.23.2560.1350@0.23.2560.1350" timestamp="1583013417917" />
-    <state width="1238" height="392" key="GridCell.Tab.0.left" timestamp="1583013417917">
+    <state width="1238" height="392" key="GridCell.Tab.0.center/0.23.2560.1350@0.23.2560.1350" timestamp="1583015535184" />
+    <state width="1238" height="392" key="GridCell.Tab.0.left" timestamp="1583015535184">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="1238" height="392" key="GridCell.Tab.0.left/0.23.2560.1350@0.23.2560.1350" timestamp="1583013417917" />
-    <state width="1238" height="392" key="GridCell.Tab.0.right" timestamp="1583013417918">
+    <state width="1238" height="392" key="GridCell.Tab.0.left/0.23.2560.1350@0.23.2560.1350" timestamp="1583015535184" />
+    <state width="1238" height="392" key="GridCell.Tab.0.right" timestamp="1583015535185">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="1238" height="392" key="GridCell.Tab.0.right/0.23.2560.1350@0.23.2560.1350" timestamp="1583013417918" />
+    <state width="1238" height="392" key="GridCell.Tab.0.right/0.23.2560.1350@0.23.2560.1350" timestamp="1583015535185" />
     <state x="1421" y="336" key="SettingsEditor" timestamp="1583002874142">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
     <state x="1421" y="336" key="SettingsEditor/0.23.2560.1350@0.23.2560.1350" timestamp="1583002874142" />
+    <state x="1575" y="467" width="689" height="462" key="find.popup" timestamp="1583015209717">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state x="1575" y="467" width="689" height="462" key="find.popup/0.23.2560.1350@0.23.2560.1350" timestamp="1583015209717" />
   </component>
 </project>
