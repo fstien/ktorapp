@@ -53,3 +53,12 @@ test {
 }
 
 mainClassName = 'io.ktor.server.netty.EngineMain' // Starting with 1.0.0-beta-3
+
+jar {
+    baseName 'ktorapp'
+    manifest {
+        attributes 'Main-Class': 'io.ktor.server.netty.EngineMain'
+    }
+
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}
